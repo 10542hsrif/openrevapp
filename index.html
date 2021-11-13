@@ -154,22 +154,7 @@ element.classList.remove("is-hidden");
     
     <div class="slideshow-container">
     
-      <nav class="level is-mobile">
-
-         <div class="level-item">    
-      
-        </div>
-        <div class="level-item">    
-      
-        </div>
-        <div class="level-item">    
-      
-        </div>
-            
-        <div class="level-item">   
-    <a class="prev" onclick="plusSlides(-1)">↑</a>
-            </div>
-            </nav>
+    
             
     <div class="mySlides fade">
     
@@ -409,11 +394,13 @@ element.classList.remove("is-hidden");
    
      </div>
      <div class="level-item">    
-   
+     
      </div>
          
-     <div class="level-item">   
- <a  onclick="plusSlides(1)">↓</a>
+     <div class="level-item">  
+         <button class="button is-outlined is-primary" onclick="plusSlides(-1)">←</button>
+         <p class="mx-2"></p>
+ <button class="button is-outlined is-primary" onclick="plusSlides(1)">→</button>
          </div>
          </nav>
          
