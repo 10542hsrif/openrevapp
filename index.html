@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="bulma/bulma.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Openrev</title>
+    <style> 
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+
+}
+::-webkit-scrollbar-corner {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+  
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+    
+}
+.canvas {
+height: 1in;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+      body {
+       
+        margin: 0px;
+        background-color: #00d1b2;
+        font-family: 'Montserrat';
+    
+     animation-name: page;
+     animation-duration: 2s;
+    }
+
+    @keyframes page {
+      0% {
+        opacity: 0%;
+
+        background-color: rgb(0, 0, 0);
+      }
+      1% {
+        background-color: rgb(247, 247, 247);
+      }
+    }
+    
+    a:hover {
+
+      font-size: small;
+animation-duration: 2s;
+animation-name: a;
+    }
+
+    @keyframes a {
+      0% {
+        border-radius: 50px;
+        background-color: #000000;
+      }
+    
+
+    90% {
+      border-radius: 50px;
+    }
+  }
+        
+.is-invisible {
+    opacity: 0% ;
+font-size: 1px;
+        }
+
+        
+    </style>
+    <script>
+      
+function popc() {
+
+
+var element = document.getElementById("popc");
+element.classList.add("is-hidden");
+
+
+var element = document.getElementById("m00");
+element.classList.remove("is-hidden");
+
+
+
+}
+    </script>
+</head>
+<body>
+  <div class="is-hidden-desktop is-hidden-widescreen-only">
+  <section id="logo" class="hero is-small  is-primary">
+    <div class="hero-body">
+      
+      <nav class="level is-mobile">
+      
+        <div class="level-item has-text-centered">
+          
+          <div>
+            <p class="subtitle"> 
+              <img class="is-rounded image is-32x32" src="img/icon.png">
+          open rev</p>
+            </div>
+        </div>
+      
+      </nav>
+</div></section>
+
+<section id="popc" class="hero is-small is-primary has-background-dark">
+  <div class="hero-body">
+
+    <section class="hero is-small is-primary has-background-dark">
+      <div class="hero-body">
+    
+    </div></section>
+
+<section  class="hero is-medium is-primary has-background-dark">
+  <div class="hero-body">
+    <nav class="level is-mobile">
+                
+      <div class="level-item has-text-centered">
+        <div>
+          <div class="notification is-primary stick">
+          
+            
+            <p>Beta Version</p>
+            <button onclick="popc()" class="delete" aria-label="delete"></button>
+           
+           
+            <p class="mt-3"></p>
+            <p class="heading has-text-white">Hope you, i and other</p>
+            <p class="heading has-text-white">review more with better way</p>
+            
+            <p class="heading my-4 has-text-white">with Openrev (open-source review)</p>
+            <p class="mb-3"></p>
+            <p class="heading my-4">   
+            
+            <nav class="level is-mobile">
+            
+              <div class="level-item">
+            <figure class="image is-32x32">
+              <img class="is-rounded" src="img/info.png">
+            </figure><p class=" has-text-white">info</p></a>
+            </div>
+            
+            <div class="level-item">
+            <figure class="image is-32x32">
+              <img class="" src="img/book.png">
+            </figure><p class=" has-text-white">books</p></a>
+            </div>
+            
+            </nav>
+            
+          </div>
+        </div></div>
+     
+</nav></div></section>
+
+<section class="hero is-small is-primary has-background-dark">
+  <div class="hero-body">
+
+</div></section>
+
+</div></section>
+
+<section id="m00" class="hero is-hidden is-small is-primary has-background-dark">
+<div class="hero-body">
+<embed src="select.html" height="330px" width="100%">
+</div>
+</section>
+
+
+
+  <section id="m01" class="hero canvas is-hidden is-small is-primary has-background-dark">
+    <div class="hero-body">
+     <p></p>
+    </div></section>
+  
+        </div>
+
+</body>
+</html>
