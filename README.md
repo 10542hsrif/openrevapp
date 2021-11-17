@@ -1,5 +1,3 @@
-#Open Rev app (Indevelopment)
+#Open Rev app (v0.4)
 
-soon
-
-<a href="https://pickatwu.github.io/openrevapp">Testing</a>
+<a href="https://pickatwu.github.io/openrevapp">Start Now!</a>
