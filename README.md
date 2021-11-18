@@ -1,3 +1,3 @@
-#Open Rev app (v0.4)
+#OpenRev app (v4)
 
 <a href="https://pickatwu.github.io/openrevapp">Start Now!</a>
